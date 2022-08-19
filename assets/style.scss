@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-#restButton{
+#answerButton{
     margin: auto;
     display: flex;
     justify-content: center;
@@ -20,8 +20,20 @@
     justify-content: center;
 }
 
-#round{
+#picture{
     width: 500px;
     height: 500px;
-    background: rgb(251, 255, 22);
+
+}
+
+#circle{
+    height: 100px;
+    width: 168px;
+    padding: 0 50px 0 83px;
+    background: rgb(7, 1, 78);
+    margin: -310px auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
