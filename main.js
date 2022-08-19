@@ -1,4 +1,4 @@
-let response = [
+let answers = [
     'NOPE',
     'Its the NO for me!',
     'Maybe Just Maybe',
