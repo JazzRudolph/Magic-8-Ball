@@ -7,27 +7,33 @@
     <title>Magic 8 Ball</title>
     <script src="./main.js"></script>
     <link href="./assets/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        <h1 class="heading">Magic 8 Ball</h1>
-        <h3 class="heading">
-            <a href="#">Subscribe</a>
-            <a href="#">Rest</a>
-            <a href="#">GitHub</a>
-        </h3>
+        <h1>Magic Eight Ball</h1>
+        <ul class="navbar">
+            <li class="link">
+                <a class="link-item" href="#">Subscribe</a>
+            </li>
+            <li class="link">
+                <a class="link-item" href="#">Rest</a>
+            </li>
+            <li class="link">
+                <a class="link-item" href="#">GitHub</a>
+            </li>
+        </ul>
         <br>
         <div id="answerButton">
             <button class="button" type="button" onclick="displayAnswer()">Tell Me My Fortune</button>
         </div>
+        <br>
         <div id="magic8ball">
-            <div id="picture">
-                <div id="circle"></div>
-            </div>
+            <div id="circle"></div>
             <img  src="./assets/Magic-8-Ball.png" alt="magic eight ball">
         </div>
-        <footer> name email phone</footer>
-        <button>click me</button>
     </main>
 </body>
 </html>

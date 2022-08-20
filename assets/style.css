@@ -1,11 +1,41 @@
 * {
-  background: rgb(19, 226, 8);
+  background: rgb(10, 9, 17);
+  font-family: "Metal Mania", cursive;
 }
 
-.heading {
+h1 {
   margin: auto;
   display: flex;
   justify-content: center;
+  color: rgb(97, 157, 174);
+}
+
+.navbar {
+  height: 35px;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(97, 157, 174);
+  border: 10px solid rgb(196, 196, 196);
+}
+
+.link {
+  list-style: none;
+}
+
+.link-item {
+  color: rgb(97, 157, 174);
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.button {
+  width: 150px;
+  height: 60px;
+  font-weight: 700;
+  background: rgb(97, 157, 174);
+  font-size: x-large;
 }
 
 #answerButton {
@@ -20,19 +50,13 @@
   justify-content: center;
 }
 
-#picture {
-  width: 500px;
-  height: 500px;
-}
-
 #circle {
   height: 100px;
   width: 168px;
   padding: 0 50px 0 83px;
-  background: rgb(7, 1, 78);
-  margin: -310px auto;
-  color: white;
-  display: flex;
-  justify-content: center;
+  background: none;
+  margin: 186px auto;
+  color: rgb(97, 157, 174);
   align-items: center;
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
